@@ -31,7 +31,7 @@
      ```
    - Hoặc cài từng thư viện:
      ```bash
-     pip install ultralytics==8.3.45 opencv-python==4.10.0.84 torch>=2.1.0 torchvision>=0.16.0 torchaudio>=2.1.0 numpy>=1.26.0
+     pip install ultralytics==8.3.45 opencv-python==4.10.0.84 torch>=2.1.0 torchvision>=0.16.0 torchaudio>=2.1.0 numpy>=1.26.0 flask
      ```
 
 4. **(Tuỳ chọn) Thoát môi trường ảo:**
