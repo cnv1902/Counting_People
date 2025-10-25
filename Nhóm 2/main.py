@@ -52,13 +52,15 @@ while True:
 cv2.destroyWindow("Select Counting Line")
 cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
 
-people_count = 0
-object_states = defaultdict(int) 
 
 def get_side_of_line(line_p1, line_p2, point):
     return (point[0] - line_p1[0]) * (line_p2[1] - line_p1[1]) - (point[1] - line_p1[1]) * (line_p2[0] - line_p1[0])
 
+people_count = 0
+object_states = defaultdict(int) 
+
 while cap.isOpened():
+
     success, frame = cap.read()
     if not success:
         break
