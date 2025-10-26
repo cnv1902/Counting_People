@@ -25,12 +25,6 @@
      source venv/bin/activate
      ```
 3. **Cài đặt các thư viện cần thiết:**
-   - Sử dụng file `requirements.txt`:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Hoặc cài từng thư viện:
-     ```bash
      pip install ultralytics==8.3.45 opencv-python==4.10.0.84 torch>=2.1.0 torchvision>=0.16.0 torchaudio>=2.1.0 numpy>=1.26.0 flask
      ```
 
